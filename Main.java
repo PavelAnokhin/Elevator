@@ -16,8 +16,7 @@ public class Main {
             if(temp<=25&&temp>0){
                 floors.offer(temp);}
             else if(temp==0){
-                //while(){
-                   // System.out.print("floor --> " + floors.peek());}
+
                 System.out.println("Would you like calculate spent time for you small travelling?\nPls,type yes for calculate or end for exit:");
                 String input2 = scan.nextLine();
                 if(input2.equals("yes")){
@@ -26,7 +25,7 @@ public class Main {
 
                 }
 
-                //3
+                //Just comment for checking GIT Hub
             // break;
             }
 
